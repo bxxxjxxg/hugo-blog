@@ -1,0 +1,92 @@
+baseurl = "https://bxxxjxxg.github.io/"
+languageCode = "zh-tw"
+title = "Dev Notes"
+# Enable comments by entering your Disqus shortname
+disqusShortname = ""
+# Enable Google Analytics by entering your tracking code
+googleAnalytics = ""
+# Define the number of posts per page
+paginate = 10
+footnotereturnlinkcontents = "↩"
+theme = "hugo-icarus-theme"
+
+
+[permalinks]
+    post = "/:year/:month/:day/:slug"
+
+
+[params]
+    author = "BingJing Chang"
+    bio = "Software Engineer"
+    location = "New Taipei City"
+    site_description = ""
+    copyright  = "Powered by [Hugo](//gohugo.io). Theme by [PPOffice](http://github.com/ppoffice)."
+    avatar = "css/images/avatar.png"
+    gravatar = "r00922040@ntu.edu.tw"
+    logo = "css/images/logo.png"
+    disable_mathjax = false
+
+    # define which types of pages should be shown. By default the type with the most regular pages
+    mainSections = ["post"]
+
+    # Format dates with Go's time formatting
+    date_format = "2006-01-02"
+
+    # Add custom assets with their paths relative to the static folder
+	custom_css = []
+	custom_js  = []
+
+[[params.menu]]
+    before = true
+    label  = "Home"
+    link   = "/"
+
+[[params.menu]]
+    before = false
+    label  = "Tags"
+    link   = "tags/"
+
+[[params.menu]]
+    before = false
+    label  = "Categories"
+    link   = "categories/"
+
+[params.profile]
+    follow_button = "https://github.com/bxxxjxxg"
+
+
+[social]
+    github          = "bxxxjxxg"
+    gitlab          = ""
+    bitbucket       = ""
+    jsfiddle        = ""
+    codepen         = ""
+    foursquare      = ""
+    dribbble        = ""
+    deviantart      = ""
+    behance         = ""
+    flickr          = ""
+    instagram       = ""
+    youtube         = ""
+    vimeo           = ""
+    vine            = ""
+    medium          = ""
+    wordpress       = ""
+    tumblr          = ""
+    xing            = ""
+    linkedin        = "bingjing-chang"
+    slideshare      = ""
+    stackoverflow   = ""
+    reddit          = ""
+    pinterest       = ""
+    googleplus      = ""
+    facebook        = "BingJing.TW"
+    facebook_admin  = ""
+    twitter_domain  = ""
+    twitter         = ""
+
+[params.widgets]
+    recent_articles = true
+    categories = true
+    tags = true
+    tag_cloud = true

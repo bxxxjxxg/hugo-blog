@@ -1,0 +1,38 @@
+[articles]
+    read_more = "繼續閱讀"
+    words = "字數"
+    readingtime = "分鐘"
+    share = "分享"
+    comments = "評論"
+
+[articles.linked_posts]
+    older = "較舊的"
+    newer = "較新的"
+
+[search]
+    placeholder = "搜尋"
+
+[pagination]
+    previous = "前"
+    next = "後"
+
+[profile]
+    follow_button = "關注"
+    tags = "分類"
+    posts = "文章"
+
+[page_not_found]
+    title = "404 - page not found"
+    subtitle = "The content you're looking for doesn't seem to exist."
+
+[widgets.categories]
+    title = "分類"
+
+[widgets.recent_articles]
+    title = "最近文章"
+
+[widgets.tag_cloud]
+    title = "標籤雲"
+
+[widgets.tags]
+    title = "標籤"
